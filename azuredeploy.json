@@ -113,8 +113,8 @@
             "SLACKIN_RELEASE": "[parameters('slackinRelease')]",
             "GOOGLE_CAPTCHA_SITEKEY": "[parameters('googleCaptchaSiteKey')]",
             "GOOGLE_CAPTCHA_SECRET": "[parameters('googleCaptchaSecret')]",            
-            "WEBSITE_NPM_DEFAULT_VERSION": "3.3.12",
-            "WEBSITE_NODE_DEFAULT_VERSION": "5.1.1",
+            "WEBSITE_NPM_DEFAULT_VERSION": "3.10.10",
+            "WEBSITE_NODE_DEFAULT_VERSION": "6.11.1",
             "command": "bash scripts/azuredeploy.sh"
           }
         },

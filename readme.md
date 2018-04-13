@@ -24,6 +24,15 @@ Other platforms:
 - [OpenShift](https://github.com/rauchg/slackin/wiki/OpenShift)
 - [IBM Bluemix](https://bluemix.net/deploy?repository=https://github.com/rauchg/slackin)
 
+If you use Azure, turn Web Socket Setting 'ON' of your Azure Web App instance.  
+And use 'Standard' instance because of WEBSOCKET_CONCURRENT_REQUEST_LIMIT:
+
+- Free:  (5) concurrent connections per web app instance
+- Shared: (35) concurrent connections per web app instance
+- Basic: (350) concurrent connections per web app instance
+- Standard: no limit
+
+
 ### Tips
 
 Your team id is what you use to access your login page on Slack (eg: https://**{this}**.slack.com).
